@@ -1,0 +1,156 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;  
+  margin-top: -23.8px;
+}
+
+#navbar {
+  position: fixed;
+  background-color: rgba(0,0,0,0.1);
+  width: 100%;
+  z-index: 1;
+  transition: all 1.2s;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+}
+
+.navbar-text {
+  font-size: 24px;
+}
+
+#main {
+  height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main:before {
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.9);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+}
+
+.main-wrapper {
+  padding-top: 35vh;
+  height: 65vh;
+}
+
+.main-title {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.brand-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 5em;
+  text-align: center;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.button-main {
+  padding: 15px 50px;
+  background-color: rgba(0,0,0,0);
+  border: 2px solid whitesmoke;
+  border-radius: 100px;
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: all 0.4s ease-in;
+}
+
+.button-main:hover {
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  color: black;
+  text-decoration: none;
+}
+
+#technologies {
+  background-color: aliceblue;
+  position: relative;
+  height: auto;
+  color: black;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  background: url('../img/elysia-menu-index.png');
+}
+
+#technologies:before {
+  content: '';
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;  
+}
+
+.technologies-title {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(60,60,60);
+  font-weight: 600;
+  text-align: center;
+}
+
+.technologies-desc {
+  margin-bottom: 5vh;
+  color: rgb(40,40,40);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.technology-info {
+  background-color: ;
+  padding: 40px;
+}
+
+.technology-img {
+  width: 60px;
+  height: auto;
+  margin-right: 25px;
+  transition: all 0.3s;
+}
+
+.technology-img:hover {
+  transform: scale(1.2);
+}
+
+.technology-title {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(60,60,60);
+  font-size: 20px;
+}
+
+.technology-desc {
+  
+}
+
+.star-active {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  color: gold;
+}
+
+.star-notactive {
+  text-shadow: 1px 0px 3px rgba(0,0,0,0.2);
+  color: dimgrey;
+}
