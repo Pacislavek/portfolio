@@ -39,6 +39,19 @@ body {
   font-size: 24px;
 }
 
+.button-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  color: white;
+  font-size: 50px;
+  z-index: 1;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  mix-blend-mode: difference;
+}
+
 #main {
   height: 100vh;
   position: relative;
