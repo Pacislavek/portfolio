@@ -340,7 +340,8 @@ a:hover {
 
 .project-button:hover {
   border: 2px solid rgba(255, 255, 255, 1);
-  color: rgba(255, 255, 255, 1);
+  background-color: white;
+  color: black;
 }
 
 #contact {
@@ -390,6 +391,11 @@ a:hover {
 .contact-icons a {
   font-size: 40px;
   color: whitesmoke;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-icons a:hover {
+  transform: scale(1.1);
 }
 
 .contact-email-button {
