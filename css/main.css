@@ -251,6 +251,8 @@ a:hover {
   color: rgb(240, 240, 240);
   font-weight: 400;
   padding-top: 6px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .project-desc {
@@ -306,6 +308,10 @@ a:hover {
 
 .project-todolist {
   background-position: center;
+  background-image: url(../img/todolist-static.png);
+}
+
+.project-todolist:hover {
   background-image: url(../img/todolist.gif);
 }
 
@@ -327,7 +333,7 @@ a:hover {
   height: auto;
   filter: grayscale(100);
   margin: 5px 5px;
-  transition: all 0.3s;
+  transition: all 0.1s;
 }
 
 .project-technology-img:first-of-type {
@@ -335,7 +341,7 @@ a:hover {
 }
 
 .project-technology-img:hover {
-  filter: none;
+  filter: grayscale(0);
 }
 
 .project-button-deck {
